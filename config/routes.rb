@@ -57,9 +57,10 @@ Rails.application.routes.draw do
 
   get 'about/index'
 
+  # Redirect the index page to the index page of the books.
   root 'books#index'
 
-
+  # Quickly declare common routes for a given controller.
   resources :authors
   resources :books
   resources :categories
