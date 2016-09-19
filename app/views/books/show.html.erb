@@ -1,2 +1,22 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<div id="books-show">
+	<h2>Ruby Off The Rails</h2>
+	<div class="books-show-left">
+		<%= image_tag('deadlink.jpg') %>
+	</div>
+	<div class="book-show-right">
+		<h3>Book Info:</h3>
+		<ul>
+			<li><strong>Category: </strong>Ruby On Rails</li>
+			<li><strong>Author: </strong>Some One</li>
+			<li><strong>Publisher: </strong></li>
+			<li><strong>Year: </strong>2007</li>
+			<li><strong>ISBN: </strong>55555555</li>
+			<li><strong>Format: </strong>Paperback</li>
+			<li><strong>Pages: </strong>678</li>
+		</ul>
+		<%= link_to "Buy for $5.47", 'url', class:'btn btn-success', target:'_blank' %> 
+	</div>
+	<div class="clearfix"></div>
+	<h4>Excerpt</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis lacus at neque pharetra, in varius nisi rutrum. In hac habitasse platea dictumst. Aenean bibendum ante eget urna iaculis, quis dapibus nunc rutrum. Morbi sed magna vel tortor faucibus dapibus. Nullam vitae massa dui. Donec eget urna convallis, tincidunt magna ut, fermentum lacus. Nulla felis neque, tincidunt eget mi nec, fringilla feugiat enim. Ut vitae sem bibendum, bibendum sem nec, tempor velit. Etiam vehicula risus nulla, non porta felis accumsan vel. Nulla sit amet ex fermentum, cursus lacus id, elementum eros. In lacus urna, ullamcorper malesuada aliquam nec, vulputate sit amet orci. In ex mi, ultricies vitae volutpat eu, porttitor sit amet metus. Aenean vitae rhoncus mauris.</p>
+</div>
