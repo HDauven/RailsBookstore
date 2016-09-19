@@ -57,6 +57,9 @@ Rails.application.routes.draw do
 
   get 'about/index'
 
+  # Route path calls to the index method of about.
+  get 'about' => 'about#index'
+
   # Redirect the index page to the index page of the books.
   root 'books#index'
 
